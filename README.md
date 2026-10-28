@@ -1,5 +1,7 @@
 # quickbooks-web-connector
 
+[![tests](https://github.com/AbdurahmanZA/quickbooks-web-connector/actions/workflows/test.yml/badge.svg)](https://github.com/AbdurahmanZA/quickbooks-web-connector/actions/workflows/test.yml) [![licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
+
 A small, readable Node.js server for the **QuickBooks Desktop Web Connector**
 (QBWC). It shows the whole method for getting data out of QuickBooks Desktop
 and into your own web app or CRM: the SOAP endpoint, login, paged qbXML
