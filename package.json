@@ -1,0 +1,27 @@
+{
+  "name": "quickbooks-web-connector",
+  "version": "1.0.0",
+  "description": "A small, readable QuickBooks Desktop Web Connector (QBWC) server for Node.js: SOAP endpoint, authentication, paged qbXML queries.",
+  "main": "src/index.js",
+  "bin": {
+    "qbwc": "bin/qbwc.js"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "keywords": [
+    "quickbooks",
+    "qbwc",
+    "web-connector",
+    "qbxml",
+    "soap"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2"
+  }
+}
